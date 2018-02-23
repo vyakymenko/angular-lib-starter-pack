@@ -3,7 +3,6 @@ import { Component, OnInit } from '@angular/core';
 import { HelloWorldService } from '../../services';
 
 @Component({
-  moduleId: module.id,
   selector: 'hello-world',
   templateUrl: 'hello-world.component.html',
   styleUrls: ['hello-world.component.scss']
