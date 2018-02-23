@@ -1,7 +1,7 @@
 {
   "name": "angular-lib-starter-pack",
   "version": "5.2.3",
-  "description": "Starter Pack For Angular 5 Component Libraries",
+  "description": "Starter Pack For or Angular 2 (and beyond) Component Libraries",
   "repository": {
     "type": "git",
     "url": "https://github.com/vyakymenko/angular-lib-starter-pack.git"

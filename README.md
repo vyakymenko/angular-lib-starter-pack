@@ -1,4 +1,4 @@
-# Starter Pack For Angular 5 Component Libraries
+# Starter Pack For Angular 2 (and beyond) Component Libraries
 ## angular-lib-starter-pack
 
 # Version
