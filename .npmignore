@@ -19,8 +19,6 @@ Desktop.ini
 .DS_Store
 
 # Temporary files
-coverage/
-demo/
 docs
 tmp
 
