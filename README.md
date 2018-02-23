@@ -4,8 +4,29 @@
 # Version
 5.2.3
 
+# Quick Start
+```bash
+# Clone
+git clone https://github.com/vyakymenko/angular-lib-starter-pack.git
+
+# Go to repository folder
+cd angular-lib-starter-pack
+
+# Install
+npm install
+
+# Build your awesome library
+npm build
+
+# Publish your package
+npm publish # WARNING: Don't forget to modify your package.json before publishing
+```
+
 # TODO
-Add documentation
+ - Add documentation
+ - Unit Testing
+ - E2E Testing
+ - Demo app
 
 # License
 
