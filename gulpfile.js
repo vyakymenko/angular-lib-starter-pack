@@ -10,6 +10,7 @@ const INLINE_TEMPLATES = {
     base: '/src',
     target: 'es6',
     useRelativePaths: true,
+    removeLineBreaks: true,
     styleProcessor: compileSass
   }
 };
@@ -23,7 +24,7 @@ gulp.task('inline-templates', () => {
 
 
 gulp.task('build:esm', ['inline-templates'], (callback) => {
-  exec('npm run ngcompile', function (error, stdout, stderr) {
+  exec('npm run ngcompile', (error, stdout, stderr) => {
     console.log(stdout, stderr);
     callback(error)
   });
