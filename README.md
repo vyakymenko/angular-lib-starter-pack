@@ -1,5 +1,10 @@
-# Starter Pack For Angular 2 (and beyond) Component Libraries
-## angular-lib-starter-pack
+# Introduction
+
+[![Build Status](https://travis-ci.org/vyakymenko/angular-lib-starter-pack.svg?branch=master)](https://travis-ci.org/vyakymenko/angular-lib-starter-pack)
+
+Starter Pack For Angular 2 (and beyond) Component Libraries
+
+`angular-lib-starter-pack`
 
 # Version
 5.2.3
