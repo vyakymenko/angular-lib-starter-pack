@@ -1,12 +1,12 @@
 # Introduction
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/vyakymenko/angular-lib-starter-pack.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/vyakymenko/angular-lib-starter-pack.svg?branch=master)](https://travis-ci.org/vyakymenko/angular-lib-starter-pack)
+
 
 Starter Pack For Angular 2 (and beyond) Component Libraries
 
 `angular-lib-starter-pack`
-
-[![Greenkeeper badge](https://badges.greenkeeper.io/vyakymenko/angular-lib-starter-pack.svg)](https://greenkeeper.io/)
 
 # Version
 5.2.3
