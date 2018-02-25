@@ -8,7 +8,7 @@
 [![devDependencies Status](https://david-dm.org/vyakymenko/angular-lib-starter-pack/dev-status.svg)](https://david-dm.org/vyakymenko/angular-lib-starter-pack?type=dev)
 [![peerDependencies Status](https://david-dm.org/vyakymenko/angular-lib-starter-pack/peer-status.svg)](https://david-dm.org/vyakymenko/angular-lib-starter-pack?type=peer)
 
-Starter Pack For Angular 2 (and beyond) Component Libraries
+Angular Starter Lib Pack For Angular 2 (and beyond) Libraries
 
 `angular-lib-starter-pack`
 
