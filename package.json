@@ -21,7 +21,6 @@
     "lint": "tslint 'src/**/*.ts'",
     "ngcompile": "node_modules/.bin/ngc -p tsconfig-aot.json",
     "postversion": "git push && git push --tags",
-    "prepare": "npm run ci",
     "prepublishOnly": "npm run ci"
   },
   "main": "./dist/index.umd.js",
