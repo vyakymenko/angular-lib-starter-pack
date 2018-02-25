@@ -7,13 +7,13 @@
     "url": "https://github.com/vyakymenko/angular-lib-starter-pack.git"
   },
   "scripts": {
-    "build": "npm run build:esm && npm run build:umd",
+    "build": "npm run clean && npm run build:esm && npm run build:umd",
     "build:esm": "gulp inline-templates && npm run ngcompile",
     "build:esm:watch": "gulp build:esm:watch",
     "build:umd": "webpack --config webpack.umd.config.ts --mode production",
     "build:umd:watch": "npm run build:umd -- --watch",
     "build:watch": "concurrently --raw \"npm run build:umd:watch\" \"npm run build:esm:watch\"",
-    "ci": "npm run lint && npm run build && npm run docs",
+    "ci": "npm run clean && npm run lint && npm run build && npm run docs",
     "clean": "rimraf coverage dist tmp docs",
     "docs": "compodoc -p tsconfig.json -d docs --disableCoverage",
     "explorer": "source-map-explorer ./dist/index.umd.js",
@@ -21,7 +21,8 @@
     "lint": "tslint 'src/**/*.ts'",
     "ngcompile": "node_modules/.bin/ngc -p tsconfig-aot.json",
     "postversion": "git push && git push --tags",
-    "prepublish": "npm run ci"
+    "prepare": "npm run ci",
+    "prepublishOnly": "npm run ci"
   },
   "main": "./dist/index.umd.js",
   "module": "./dist/index.js",
@@ -42,16 +43,16 @@
   "homepage": "https://github.com/vyakymenko/angular-lib-starter-pack#readme",
   "dependencies": {},
   "peerDependencies": {
-    "@angular/common": "5.2.3",
-    "@angular/core": "5.2.3"
+    "@angular/common": "^5.2.0",
+    "@angular/core": "^5.2.0"
   },
   "devDependencies": {
-    "@angular/common": "^5.2.3",
-    "@angular/compiler": "^5.2.3",
-    "@angular/compiler-cli": "^5.2.3",
-    "@angular/core": "^5.2.3",
-    "@angular/platform-browser": "^5.2.3",
-    "@angular/platform-browser-dynamic": "^5.2.3",
+    "@angular/common": "^5.2.0",
+    "@angular/compiler": "^5.2.0",
+    "@angular/compiler-cli": "^5.2.0",
+    "@angular/core": "^5.2.0",
+    "@angular/platform-browser": "^5.2.0",
+    "@angular/platform-browser-dynamic": "^5.2.0",
     "@compodoc/compodoc": "^1.0.5",
     "@types/node": "^9.3.0",
     "@types/webpack": "^3.8.8",
