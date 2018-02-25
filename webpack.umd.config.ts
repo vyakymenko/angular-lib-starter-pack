@@ -67,27 +67,24 @@ export default {
       }
     ]
   },
+  optimization: {
+    minimize: true
+  },
   plugins: [
     new webpack.ContextReplacementPlugin(
       /angular(\\|\/)core(\\|\/)@angular/,
       path.join(__dirname, 'src')
     ),
 
-    new webpack.optimize.UglifyJsPlugin({
-      include: /\.min\.js$/,
-      sourceMap: true
-    }),
-
     new webpack.BannerPlugin({
       banner: `
-/**
- * ${pkg.name} - ${pkg.description}
- * @version v${pkg.version}
- * @author ${pkg.author}
- * @link ${pkg.homepage}
- * @license ${pkg.license}
- */
-      `.trim(),
+        /**
+         * ${pkg.name} - ${pkg.description}
+         * @version v${pkg.version}
+         * @author ${pkg.author}
+         * @link ${pkg.homepage}
+         * @license ${pkg.license}
+         */`.trim(),
       raw: true,
       entryOnly: true
     })
