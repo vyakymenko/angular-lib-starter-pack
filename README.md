@@ -8,7 +8,8 @@
 [![devDependencies Status](https://david-dm.org/vyakymenko/angular-lib-starter-pack/dev-status.svg)](https://david-dm.org/vyakymenko/angular-lib-starter-pack?type=dev)
 [![peerDependencies Status](https://david-dm.org/vyakymenko/angular-lib-starter-pack/peer-status.svg)](https://david-dm.org/vyakymenko/angular-lib-starter-pack?type=peer)
 
-Angular Starter Lib Pack For Angular 2 (and beyond) Libraries
+Angular Starter Lib Pack For Angular 2 (and beyond provides the fast, reliable and extensible starter for the development of Angular 2 (and beyond)  Libraries.
+
 
 `angular-lib-starter-pack`
 
