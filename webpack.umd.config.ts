@@ -88,6 +88,5 @@ export default {
       raw: true,
       entryOnly: true
     })
-
   ]
 } as webpack.Configuration;
