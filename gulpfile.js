@@ -15,13 +15,11 @@ const INLINE_TEMPLATES = {
   }
 };
 
-
 gulp.task('inline-templates', () => {
   return gulp.src(INLINE_TEMPLATES.SRC)
     .pipe(inlineTemplates(INLINE_TEMPLATES.CONFIG))
     .pipe(gulp.dest(INLINE_TEMPLATES.DIST));
 });
-
 
 gulp.task('build:esm', ['inline-templates'], (callback) => {
   exec('npm run ngcompile', (error, stdout, stderr) => {
@@ -30,11 +28,9 @@ gulp.task('build:esm', ['inline-templates'], (callback) => {
   });
 });
 
-
 gulp.task('build:esm:watch', ['build:esm'], () => {
   gulp.watch('src/**/*', ['build:esm']);
 });
-
 
 function compileSass(path, ext, file, callback) {
   let compiledCss = sass.renderSync({
