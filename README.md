@@ -14,7 +14,7 @@ Angular Starter Lib Pack For Angular 2 (and beyond provides the fast, reliable a
 `angular-lib-starter-pack`
 
 # Current Version
-5.2.4
+6.1.0
 
 # Quick Start
 ```bash

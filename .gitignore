@@ -23,6 +23,3 @@ coverage/
 dist
 docs
 tmp
-
-# NPM
-package-lock.json
