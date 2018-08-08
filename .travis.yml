@@ -15,7 +15,7 @@ before_script:
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then sh -e /etc/init.d/xvfb start; fi
 
 script:
-  - npm run ci
+  - npm run ci.test
 
 notifications:
   email: true
