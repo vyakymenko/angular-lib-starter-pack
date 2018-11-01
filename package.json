@@ -52,7 +52,7 @@
     "@angular/core": "^6.1.0",
     "@angular/platform-browser": "^6.1.0",
     "@angular/platform-browser-dynamic": "^6.1.0",
-    "@compodoc/compodoc": "^1.0.5",
+    "@compodoc/compodoc": "^1.1.6",
     "@types/node": "^10.12.2",
     "@types/webpack": "^4.1.14",
     "@types/webpack-env": "^1.13.0",
