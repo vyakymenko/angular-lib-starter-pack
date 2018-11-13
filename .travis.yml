@@ -1,18 +1,11 @@
 sudo: required
 dist: trusty
-addons:
-  apt:
-    sources:
-      - google-chrome
-    packages:
-      - google-chrome-stable
 language: node_js
 node_js:
   - node
 
 before_script:
   - npm install
-  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then sh -e /etc/init.d/xvfb start; fi
 
 script:
   - npm run ci.test
