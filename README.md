@@ -14,7 +14,11 @@ Angular Starter Lib Pack For Angular 2 (and beyond provides the fast, reliable a
 `angular-lib-starter-pack`
 
 # Current Version
-7.0.4
+7.2.0
+
+# You can use `angular-cli` for making libs
+
+You can create library with `angular-cli`, look at [documentation](https://angular.io/cli/generate).
 
 # Quick Start
 ```bash
