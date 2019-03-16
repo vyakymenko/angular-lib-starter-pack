@@ -80,7 +80,7 @@
     "typescript": "~3.2.2",
     "webpack": "4.29.6",
     "webpack-angular-externals": "^1.0.2",
-    "webpack-cli": "3.2.3",
+    "webpack-cli": "3.3.0",
     "webpack-rxjs-externals": "^2.0.0",
     "zone.js": "0.8.29"
   }
