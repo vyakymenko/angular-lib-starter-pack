@@ -63,7 +63,7 @@
     "concurrently": "^4.0.0",
     "css-loader": "^2.0.0",
     "gh-pages": "^2.0.0",
-    "gulp": "3.9.1",
+    "gulp": "4.0.1",
     "gulp-inline-ng2-template": "^5.0.0",
     "istanbul-instrumenter-loader": "^3.0.0",
     "json-loader": "^0.5.4",
